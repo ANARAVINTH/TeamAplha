@@ -19,7 +19,7 @@ import java.util.Set;
 
 public class HomePageSteps extends LaunchBrowser {
 
-   private WebDriver driver;
+    WebDriver driver;
    private TextBoxHelper textBoxHelper;
     @Given("launch URL")
     public  void url() throws IOException {
@@ -74,6 +74,8 @@ public class HomePageSteps extends LaunchBrowser {
             }
 
         }
+
+        System.out.println("Sample");
 
     }
 
