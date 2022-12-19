@@ -17,3 +17,9 @@ Feature: Salesforce with resuable files
   Scenario: Count Links with the help of set
     When count links using list
 
+        @New
+        Scenario:  Demo
+          Given Hello
+          When Hi
+          Then abc
+
